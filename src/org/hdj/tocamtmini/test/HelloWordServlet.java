@@ -13,6 +13,7 @@ public class HelloWordServlet extends MyServlet {
        System.out.println("HelloWordServlet: get world");
         try {
             response.write("测试");
+
         } catch (IOException e) {
             e.printStackTrace();
         }
